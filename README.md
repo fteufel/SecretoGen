@@ -1,7 +1,12 @@
 # SecretoGen
 
 
-A conditional autoregressive model of signal peptides.
+A conditional autoregressive model of signal peptides. Work in progress.
+
+
+## Resources
+
+The trained model weights are available at https://sid.erda.dk/cgi-sid/ls.py?share_id=e9OpPDduHg.
 
 
 ## Overview

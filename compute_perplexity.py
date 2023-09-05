@@ -16,8 +16,6 @@ ID_TO_AA = {v: k for k, v in AA_TO_ID.items()}
 def load_model(weights, all_taxonomy_levels=True, codons=False):
     state_dict = torch.load(weights, map_location='cpu')['module']
     state_dict['tok_emb.embedding.weight'] = state_dict['generator.weight']
-    from pretraining.models.transformer_lora import lorafy_torch_transformer_checkpoint
-    state_dict = lorafy_torch_transformer_checkpoint(state_dict)
     model = Seq2SeqTransformer(
         12,
         12,
