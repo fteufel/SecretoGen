@@ -1,7 +1,7 @@
 # SecretoGen
 
 
-A conditional autoregressive model of signal peptides. Work in progress.
+A conditional autoregressive model of signal peptides. SecretoGen generates signal peptides conditional on the mature protein sequence and the host organism.
 
 
 ## Resources
